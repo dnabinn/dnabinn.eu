@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nabin — Web & Digital Solutions</title>
+
+  <!-- SEO / OG -->
+  <meta name="description" content="Custom websites, booking systems and payment integrations for restaurants and service businesses in Portugal.">
+  <meta property="og:title"       content="Nabin — Web & Digital Solutions">
+  <meta property="og:description" content="Custom websites, booking systems and payment integrations for restaurants and service businesses in Portugal.">
+  <meta property="og:image"       content="https://dnabinn.eu/og-image.jpg">
+  <meta property="og:url"         content="https://dnabinn.eu">
+  <meta property="og:type"        content="website">
+  <meta name="twitter:card"       content="summary_large_image">
+  <meta name="twitter:image"      content="https://dnabinn.eu/og-image.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+<div class="cursor"      id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ── NAV ─────────────────────────────────────────── -->
+<nav id="mainNav">
+  <a href="#" class="nav-logo">N<span>.</span>dev</a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#services"     data-en="Services"  data-pt="Serviços">Services</a></li>
+      <li><a href="#work"         data-en="Work"      data-pt="Trabalho">Work</a></li>
+      <li><a href="#about"        data-en="About"     data-pt="Sobre">About</a></li>
+      <li><a href="#contact"      data-en="Contact"   data-pt="Contacto">Contact</a></li>
+    </ul>
+    <div class="lang-toggle">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn"        data-lang="pt">PT</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO ─────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-city">
+    <img src="https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=900&q=60&auto=format" alt="">
+  </div>
+
+  <div class="hero-left">
+    <div class="hero-tag">
+      <span class="status-dot"></span>
+      <span data-en="Available for Projects · Lisbon, PT" data-pt="Disponível para Projetos · Lisboa, PT">Available for Projects · Lisbon, PT</span>
+    </div>
+    <h1>
+      <span data-en="I help businesses" data-pt="Ajudo empresas">I help businesses</span><br>
+      <em data-en="grow" data-pt="crescer">grow</em>
+      <span class="line2" data-en="through tech." data-pt="com tecnologia.">through tech.</span>
+    </h1>
+    <p class="hero-sub" data-en="Custom websites, booking systems, payment integrations, and management dashboards — built for restaurants, wellness businesses, and service companies across Portugal." data-pt="Websites personalizados, sistemas de reservas, pagamentos online e painéis de gestão — desenvolvidos para restaurantes, negócios de bem-estar e empresas de serviços em Portugal.">Custom websites, booking systems, payment integrations, and management dashboards — built for restaurants, wellness businesses, and service companies across Portugal.</p>
+    <div class="hero-ctas">
+      <a href="#work"    class="btn-primary" data-en="View My Work"  data-pt="Ver o Meu Trabalho">View My Work</a>
+      <a href="#contact" class="btn-ghost"   data-en="Get in Touch"  data-pt="Falar Comigo">Get in Touch</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="terminal-card">
+      <div class="terminal-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+        <span class="terminal-title">profile.json</span>
+      </div>
+      <div class="terminal-body">
+        <div class="terminal-line" style="animation-delay:0.60s"><span class="t-prompt">{</span></div>
+        <div class="terminal-line" style="animation-delay:0.75s">&nbsp;&nbsp;<span class="t-key">"name"</span>: <span class="t-str">"Nabin"</span>,</div>
+        <div class="terminal-line" style="animation-delay:0.90s">&nbsp;&nbsp;<span class="t-key">"role"</span>: <span class="t-str" data-en='"Web &amp; Digital Specialist"' data-pt='"Especialista Web &amp; Digital"'>"Web &amp; Digital Specialist"</span>,</div>
+        <div class="terminal-line" style="animation-delay:1.05s">&nbsp;&nbsp;<span class="t-key">"based"</span>: <span class="t-str">"Lisbon, Portugal 🇵🇹"</span>,</div>
+        <div class="terminal-line" style="animation-delay:1.20s">&nbsp;&nbsp;<span class="t-key">"clients"</span>: <span class="t-val">10</span>,</div>
+        <div class="terminal-line" style="animation-delay:1.35s">&nbsp;&nbsp;<span class="t-key">"focus"</span>: [<span class="t-str" data-en='"Restaurants"' data-pt='"Restaurantes"'>"Restaurants"</span>, <span class="t-str" data-en='"Wellness"' data-pt='"Bem-estar"'>"Wellness"</span>],</div>
+        <div class="terminal-line" style="animation-delay:1.50s">&nbsp;&nbsp;<span class="t-key">"languages"</span>: [<span class="t-str">"PT"</span>, <span class="t-str">"EN"</span>],</div>
+        <div class="terminal-line" style="animation-delay:1.65s">&nbsp;&nbsp;<span class="t-key">"experience"</span>: <span class="t-str">"3+ years"</span>,</div>
+        <div class="terminal-line" style="animation-delay:1.80s">&nbsp;&nbsp;<span class="t-key">"status"</span>: <span class="t-val">true</span> <span class="t-comment" data-en="// open for work" data-pt="// disponível">// open for work</span></div>
+        <div class="terminal-line" style="animation-delay:1.95s"><span class="t-prompt">}</span><span class="t-cursor"></span></div>
+      </div>
+    </div>
+    <div class="stat-row">
+      <div class="stat-box"><span class="stat-num" data-count="10">0</span><span class="stat-label" data-en="Clients"  data-pt="Clientes">Clients</span></div>
+      <div class="stat-box"><span class="stat-num" data-count="3">0</span> <span class="stat-label" data-en="Years"    data-pt="Anos">Years</span></div>
+      <div class="stat-box"><span class="stat-num" data-count="20">0</span><span class="stat-label" data-en="Projects" data-pt="Projetos">Projects</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── LISBON STRIP ──────────────────────────────────── -->
+<div class="lisbon-strip">
+  <img src="https://images.unsplash.com/photo-1513735492246-483525079686?w=1400&q=60&auto=format" alt="Lisbon">
+  <div class="lisbon-overlay"></div>
+  <div class="lisbon-text" data-en="Lisbon, Portugal — where the work gets done" data-pt="Lisboa, Portugal — onde o trabalho acontece">Lisbon, Portugal — where the work gets done</div>
+</div>
+
+<!-- ── SERVICES ──────────────────────────────────────── -->
+<section id="services">
+  <div class="section-label" data-en="What I do" data-pt="O que faço">What I do</div>
+  <h2 class="section-title reveal"><span data-en="Full digital" data-pt="Soluções digitais">Full digital</span> <em data-en="solutions" data-pt="completas">solutions</em></h2>
+  <p class="section-desc reveal" data-delay="1" data-en="From first sketch to live deployment — everything a small business needs to build their digital presence and automate operations." data-pt="Do esboço inicial ao lançamento final — tudo o que uma pequena empresa precisa para construir a sua presença digital e automatizar operações.">From first sketch to live deployment — everything a small business needs to build their digital presence and automate operations.</p>
+
+  <div class="services-grid">
+    <div class="service-card reveal" data-delay="1">
+      <span class="service-icon">🌐</span>
+      <div class="service-name" data-en="Website Design &amp; Build" data-pt="Design e Desenvolvimento Web">Website Design &amp; Build</div>
+      <p class="service-desc" data-en="Conversion-focused, visually polished websites built from scratch. Fast, responsive, and SEO-optimised from day one." data-pt="Websites visualmente refinados e focados em conversão, construídos de raiz. Rápidos, responsivos e otimizados para SEO desde o primeiro dia.">Conversion-focused, visually polished websites built from scratch. Fast, responsive, and SEO-optimised from day one.</p>
+    </div>
+    <div class="service-card reveal" data-delay="2">
+      <span class="service-icon">📅</span>
+      <div class="service-name" data-en="Online Booking Systems" data-pt="Sistemas de Reservas Online">Online Booking Systems</div>
+      <p class="service-desc" data-en="Multi-step booking flows with automatic SMS and email confirmations, plus a management panel for your team." data-pt="Fluxos de reserva em múltiplos passos com confirmações automáticas por SMS e email, e painel de gestão para a sua equipa.">Multi-step booking flows with automatic SMS and email confirmations, plus a management panel for your team.</p>
+    </div>
+    <div class="service-card reveal" data-delay="3">
+      <span class="service-icon">💳</span>
+      <div class="service-name" data-en="Online Payment Integration" data-pt="Integração de Pagamentos Online">Online Payment Integration</div>
+      <p class="service-desc" data-en="Secure payment flows for Portuguese and European markets — card, digital wallet, and local payment methods supported." data-pt="Fluxos de pagamento seguros para mercados portugueses e europeus — cartão, carteira digital e métodos de pagamento locais incluídos.">Secure payment flows for Portuguese and European markets — card, digital wallet, and local payment methods supported.</p>
+    </div>
+    <div class="service-card reveal" data-delay="1">
+      <span class="service-icon">🗂️</span>
+      <div class="service-name" data-en="Admin Dashboards" data-pt="Painéis de Administração">Admin Dashboards</div>
+      <p class="service-desc" data-en="Secure backend dashboards for managing bookings, customers, and business data — no third-party software required." data-pt="Painéis de gestão seguros para reservas, clientes e dados do negócio — sem software de terceiros necessário.">Secure backend dashboards for managing bookings, customers, and business data — no third-party software required.</p>
+    </div>
+    <div class="service-card reveal" data-delay="2">
+      <span class="service-icon">🌍</span>
+      <div class="service-name" data-en="Bilingual Websites (PT/EN)" data-pt="Websites Bilingues (PT/EN)">Bilingual Websites (PT/EN)</div>
+      <p class="service-desc" data-en="Fully bilingual websites so your business speaks to both Portuguese locals and international visitors." data-pt="Websites totalmente bilingues para que o seu negócio comunique com clientes locais e turistas internacionais.">Fully bilingual websites so your business speaks to both Portuguese locals and international visitors.</p>
+    </div>
+    <div class="service-card reveal" data-delay="3">
+      <span class="service-icon">📱</span>
+      <div class="service-name" data-en="Social Media Management" data-pt="Gestão de Redes Sociais">Social Media Management</div>
+      <p class="service-desc" data-en="Consistent, on-brand content across Instagram and Facebook. Posts, stories, and campaigns tailored to your audience." data-pt="Conteúdo consistente e alinhado com a sua marca no Instagram e Facebook. Posts, stories e campanhas adaptadas ao seu público.">Consistent, on-brand content across Instagram and Facebook. Posts, stories, and campaigns tailored to your audience.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── WORK ───────────────────────────────────────────── -->
+<section id="work">
+  <div class="section-label" data-en="Selected Work" data-pt="Trabalho Selecionado">Selected Work</div>
+  <h2 class="section-title reveal"><span data-en="Projects that" data-pt="Projetos que">Projects that</span> <em data-en="perform" data-pt="entregam">perform</em></h2>
+  <p class="section-desc reveal" data-delay="1" data-en="Real businesses, real results. Each project is built to attract customers, automate operations, and grow revenue." data-pt="Negócios reais, resultados reais. Cada projeto é criado para atrair clientes, automatizar operações e aumentar receita.">Real businesses, real results. Each project is built to attract customers, automate operations, and grow revenue.</p>
+
+  <div class="work-grid">
+
+    <div class="project-card featured reveal">
+      <div class="project-visual">
+        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=70&auto=format" alt="Thai massage">
+        <div class="visual-overlay"></div>
+        <div class="visual-badge" data-en="Featured" data-pt="Destaque">Featured</div>
+      </div>
+      <div class="project-info">
+        <div class="project-cat" data-en="Wellness · Lisbon, PT" data-pt="Bem-estar · Lisboa, PT">Wellness · Lisbon, PT</div>
+        <div class="project-name">Bangkok Thai Massage</div>
+        <p class="project-desc" data-en="Full website redesign for a two-location therapeutic massage studio in Lisbon. Complete online booking, secure payments, automatic confirmations, bilingual PT/EN interface, and a private management dashboard." data-pt="Redesign completo do website para um estúdio de massagens terapêuticas com duas localizações em Lisboa. Reservas online, pagamentos seguros, confirmações automáticas, interface bilingue PT/EN e painel de gestão privado.">Full website redesign for a two-location therapeutic massage studio in Lisbon. Complete online booking, secure payments, automatic confirmations, bilingual PT/EN interface, and a private management dashboard.</p>
+        <div class="project-tags">
+          <span class="proj-tag" data-en="Website"       data-pt="Website">Website</span>
+          <span class="proj-tag" data-en="Booking System" data-pt="Sistema de Reservas">Booking System</span>
+          <span class="proj-tag" data-en="Payments"      data-pt="Pagamentos">Payments</span>
+          <span class="proj-tag">PT/EN</span>
+        </div>
+        <a href="#" class="project-link" data-en="View Project →" data-pt="Ver Projeto →">View Project →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-delay="1">
+      <div class="project-visual">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&q=70&auto=format" alt="Restaurant">
+        <div class="visual-overlay"></div>
+        <div class="visual-badge" data-en="Restaurant" data-pt="Restaurante">Restaurant</div>
+      </div>
+      <div class="project-info">
+        <div class="project-cat" data-en="Restaurant · Lisbon" data-pt="Restaurante · Lisboa">Restaurant · Lisbon</div>
+        <div class="project-name">Fork &amp; Fire</div>
+        <p class="project-desc" data-en="Premium all-you-can-eat restaurant in Entrecampos. Full website, social media management, and digital menu design." data-pt="Restaurante premium all-you-can-eat nos Entrecampos. Website completo, gestão de redes sociais e design de menu digital.">Premium all-you-can-eat restaurant in Entrecampos. Full website, social media management, and digital menu design.</p>
+        <div class="project-tags">
+          <span class="proj-tag" data-en="Website"     data-pt="Website">Website</span>
+          <span class="proj-tag" data-en="Social Media" data-pt="Redes Sociais">Social Media</span>
+          <span class="proj-tag" data-en="Menu Design" data-pt="Design de Menu">Menu Design</span>
+        </div>
+        <a href="#" class="project-link" data-en="View Project →" data-pt="Ver Projeto →">View Project →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-delay="2">
+      <div class="project-visual">
+        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=700&q=70&auto=format" alt="Indian food">
+        <div class="visual-overlay"></div>
+        <div class="visual-badge" data-en="Restaurant" data-pt="Restaurante">Restaurant</div>
+      </div>
+      <div class="project-info">
+        <div class="project-cat" data-en="Restaurant · Lisbon" data-pt="Restaurante · Lisboa">Restaurant · Lisbon</div>
+        <div class="project-name">Namaste Curry House</div>
+        <p class="project-desc" data-en="Website build and food delivery platform setup. Ongoing social media content and digital marketing support." data-pt="Desenvolvimento de website e configuração de plataformas de entrega de comida. Conteúdo para redes sociais e apoio de marketing digital.">Website build and food delivery platform setup. Ongoing social media content and digital marketing support.</p>
+        <div class="project-tags">
+          <span class="proj-tag" data-en="Website"            data-pt="Website">Website</span>
+          <span class="proj-tag" data-en="Delivery Platforms" data-pt="Plataformas de Entrega">Delivery Platforms</span>
+          <span class="proj-tag" data-en="Social Media"       data-pt="Redes Sociais">Social Media</span>
+        </div>
+        <a href="#" class="project-link" data-en="View Project →" data-pt="Ver Projeto →">View Project →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal" data-delay="1">
+      <div class="project-visual">
+        <img src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=700&q=70&auto=format" alt="Sushi">
+        <div class="visual-overlay"></div>
+        <div class="visual-badge" data-en="New Build" data-pt="Novo Projeto">New Build</div>
+      </div>
+      <div class="project-info">
+        <div class="project-cat" data-en="Restaurant · Lisbon" data-pt="Restaurante · Lisboa">Restaurant · Lisbon</div>
+        <div class="project-name">Prime Sushi &amp; Grill</div>
+        <p class="project-desc" data-en="Dark luxury Japanese aesthetic — full single-page site with hero slider, pricing section, reservations, and structured data for search engines." data-pt="Estética japonesa de luxo sombrio — site single-page completo com slider hero, secção de preços, reservas e dados estruturados para motores de busca.">Dark luxury Japanese aesthetic — full single-page site with hero slider, pricing section, reservations, and structured data for search engines.</p>
+        <div class="project-tags">
+          <span class="proj-tag" data-en="Website"      data-pt="Website">Website</span>
+          <span class="proj-tag">SEO</span>
+          <span class="proj-tag" data-en="Reservations" data-pt="Reservas">Reservations</span>
+        </div>
+        <a href="#" class="project-link" data-en="View Project →" data-pt="Ver Projeto →">View Project →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── ABOUT ──────────────────────────────────────────── -->
+<div class="about-strip" id="about">
+  <div class="about-photo-wrap reveal-left">
+    <div class="about-photo-frame"></div>
+    <img class="about-photo" src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=600&q=70&auto=format" alt="Working">
+  </div>
+  <div class="about-right reveal-right">
+    <div class="section-label" style="margin-bottom:20px;" data-en="About" data-pt="Sobre">About</div>
+    <div class="about-quote">"<span data-en="I bridge the gap between what a business needs" data-pt="Conecto o que um negócio precisa">I bridge the gap between what a business needs</span> <span data-en="and what technology can deliver." data-pt="com o que a tecnologia pode oferecer.">and what technology can deliver.</span>"</div>
+    <p class="about-body" data-en="Based in Lisbon, I build and manage the full digital presence for restaurants, wellness studios, and service businesses — from the first line of code to launch and ongoing support. My clients don't need to think about technology. I take care of everything." data-pt="Baseado em Lisboa, construo e giro a presença digital completa de restaurantes, estúdios de bem-estar e empresas de serviços — desde o primeiro código até ao lançamento e suporte contínuo. Os meus clientes não precisam de pensar em tecnologia. Eu trato de tudo.">Based in Lisbon, I build and manage the full digital presence for restaurants, wellness studios, and service businesses — from the first line of code to launch and ongoing support. My clients don't need to think about technology. I take care of everything.</p>
+    <p class="about-body" data-en="Every solution is custom-built for the client — no templates, no unnecessary complexity, no lock-in." data-pt="Cada solução é feita à medida do cliente — sem templates genéricos, sem complexidade desnecessária, sem dependências.">Every solution is custom-built for the client — no templates, no unnecessary complexity, no lock-in.</p>
+    <div class="about-clients">
+      <span class="client-chip">Bangkok Thai Massage</span>
+      <span class="client-chip">Mali Thai Massage</span>
+      <span class="client-chip">Fork &amp; Fire</span>
+      <span class="client-chip">Verona Restaurant</span>
+      <span class="client-chip">Namaste Curry House</span>
+      <span class="client-chip">Fenicios</span>
+      <span class="client-chip">Lumbini Restaurant</span>
+      <span class="client-chip">Que Pasa Brunch</span>
+      <span class="client-chip">Prime Sushi</span>
+      <span class="client-chip">AC Group</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── CAPABILITIES ───────────────────────────────────── -->
+<section id="capabilities">
+  <div class="section-label" data-en="Capabilities" data-pt="Capacidades">Capabilities</div>
+  <h2 class="section-title reveal"><span data-en="What I bring" data-pt="O que ofereço">What I bring</span> <em data-en="to every project" data-pt="a cada projeto">to every project</em></h2>
+  <p class="section-desc reveal" data-delay="1" data-en="Every project is delivered with the full range of skills needed — no outsourcing, no hand-offs." data-pt="Cada projeto é entregue com todas as competências necessárias — sem subcontratação, sem intermediários.">Every project is delivered with the full range of skills needed — no outsourcing, no hand-offs.</p>
+
+  <div class="cap-grid">
+    <div class="cap-card reveal" data-delay="1">
+      <span class="cap-icon">🎨</span>
+      <div class="cap-name" data-en="Frontend Development" data-pt="Desenvolvimento Frontend">Frontend Development</div>
+      <p class="cap-desc" data-en="Pixel-perfect, responsive interfaces built for speed and conversion. Clean code, no unnecessary dependencies." data-pt="Interfaces responsivas e pixel-perfect, construídas para rapidez e conversão. Código limpo, sem dependências desnecessárias.">Pixel-perfect, responsive interfaces built for speed and conversion. Clean code, no unnecessary dependencies.</p>
+    </div>
+    <div class="cap-card reveal" data-delay="2">
+      <span class="cap-icon">⚙️</span>
+      <div class="cap-name" data-en="Backend &amp; Databases" data-pt="Backend e Bases de Dados">Backend &amp; Databases</div>
+      <p class="cap-desc" data-en="Secure, scalable data infrastructure for bookings, users, and business logic. Real-time updates included." data-pt="Infraestrutura de dados segura e escalável para reservas, utilizadores e lógica de negócio. Atualizações em tempo real incluídas.">Secure, scalable data infrastructure for bookings, users, and business logic. Real-time updates included.</p>
+    </div>
+    <div class="cap-card reveal" data-delay="3">
+      <span class="cap-icon">💰</span>
+      <div class="cap-name" data-en="Payments &amp; Automation" data-pt="Pagamentos e Automação">Payments &amp; Automation</div>
+      <p class="cap-desc" data-en="End-to-end payment flows and automated notifications — your business runs itself while you focus on what matters." data-pt="Fluxos de pagamento completos e notificações automatizadas — o seu negócio funciona sozinho enquanto se foca no que importa.">End-to-end payment flows and automated notifications — your business runs itself while you focus on what matters.</p>
+    </div>
+    <div class="cap-card reveal" data-delay="4">
+      <span class="cap-icon">🚀</span>
+      <div class="cap-name" data-en="Deployment &amp; Maintenance" data-pt="Publicação e Manutenção">Deployment &amp; Maintenance</div>
+      <p class="cap-desc" data-en="Fast, reliable deployment to your domain with zero downtime. Ongoing support, updates, and monitoring available." data-pt="Publicação rápida e fiável no seu domínio sem interrupções. Suporte contínuo, atualizações e monitorização disponíveis.">Fast, reliable deployment to your domain with zero downtime. Ongoing support, updates, and monitoring available.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROCESS ────────────────────────────────────────── -->
+<section id="process">
+  <div class="section-label" data-en="How I work" data-pt="Como trabalho">How I work</div>
+  <h2 class="section-title reveal"><span data-en="A clear" data-pt="Um processo">A clear</span> <em data-en="process" data-pt="claro">process</em></h2>
+  <p class="section-desc reveal" data-delay="1" data-en="No surprises, no scope creep. Every project follows a structured workflow that keeps things on time and on budget." data-pt="Sem surpresas, sem desvios de âmbito. Cada projeto segue um fluxo de trabalho estruturado que mantém prazos e orçamentos.">No surprises, no scope creep. Every project follows a structured workflow that keeps things on time and on budget.</p>
+
+  <div class="process-steps">
+    <div class="process-step reveal" data-delay="1">
+      <div class="step-num">01</div>
+      <div class="step-name" data-en="Discovery"    data-pt="Descoberta">Discovery</div>
+      <p class="step-desc" data-en="Understand your business, goals, and customers. Define scope, timeline, and deliverables." data-pt="Compreender o seu negócio, objetivos e clientes. Definir âmbito, prazos e entregáveis.">Understand your business, goals, and customers. Define scope, timeline, and deliverables.</p>
+    </div>
+    <div class="process-step reveal" data-delay="2">
+      <div class="step-num">02</div>
+      <div class="step-name" data-en="Design"       data-pt="Design">Design</div>
+      <p class="step-desc" data-en="Build the visual direction and user experience tailored to your brand and audience." data-pt="Construir a direção visual e experiência de utilizador adaptada à sua marca e público.">Build the visual direction and user experience tailored to your brand and audience.</p>
+    </div>
+    <div class="process-step reveal" data-delay="3">
+      <div class="step-num">03</div>
+      <div class="step-name" data-en="Build"        data-pt="Desenvolvimento">Build</div>
+      <p class="step-desc" data-en="Write clean code with all integrations — bookings, payments, notifications — fully wired and tested." data-pt="Código limpo com todas as integrações — reservas, pagamentos, notificações — totalmente ligadas e testadas.">Write clean code with all integrations — bookings, payments, notifications — fully wired and tested.</p>
+    </div>
+    <div class="process-step reveal" data-delay="4">
+      <div class="step-num">04</div>
+      <div class="step-name" data-en="Review"       data-pt="Revisão">Review</div>
+      <p class="step-desc" data-en="QA across all devices and browsers. Feedback rounds until everything is right." data-pt="Testes em todos os dispositivos e browsers. Rondas de feedback até estar perfeito.">QA across all devices and browsers. Feedback rounds until everything is right.</p>
+    </div>
+    <div class="process-step reveal" data-delay="5">
+      <div class="step-num">05</div>
+      <div class="step-name" data-en="Launch"       data-pt="Lançamento">Launch</div>
+      <p class="step-desc" data-en="Deploy to your domain with zero downtime. Documentation and ongoing support available." data-pt="Publicação no seu domínio sem interrupções. Documentação e suporte contínuo disponíveis.">Deploy to your domain with zero downtime. Documentation and ongoing support available.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ────────────────────────────────────────── -->
+<section id="contact">
+  <div class="section-label" data-en="Get in Touch" data-pt="Contacto">Get in Touch</div>
+  <h2 class="section-title reveal"><span data-en="Let's build" data-pt="Vamos criar">Let's build</span> <em data-en="something" data-pt="algo">something</em></h2>
+  <p class="section-desc reveal" data-delay="1" data-en="Have a project in mind? Whether it's a full site build, a booking system, or a quick consultation — let's talk." data-pt="Tem um projeto em mente? Seja um website completo, um sistema de reservas ou uma consulta rápida — vamos conversar.">Have a project in mind? Whether it's a full site build, a booking system, or a quick consultation — let's talk.</p>
+
+  <div class="contact-grid">
+    <div class="reveal-left">
+      <div class="contact-item">
+        <span class="contact-icon">📍</span>
+        <div>
+          <div class="contact-label" data-en="Location"      data-pt="Localização">Location</div>
+          <div class="contact-value" data-en="Lisbon, Portugal" data-pt="Lisboa, Portugal">Lisbon, Portugal</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">📧</span>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-value"><a href="mailto:hello@dnabinn.eu" style="color:var(--ink);text-decoration:none;">hello@dnabinn.eu</a></div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">💬</span>
+        <div>
+          <div class="contact-label">WhatsApp</div>
+          <div class="contact-value" data-en="Available for quick calls" data-pt="Disponível para chamadas rápidas">Available for quick calls</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">⏱️</span>
+        <div>
+          <div class="contact-label" data-en="Response Time"         data-pt="Tempo de Resposta">Response Time</div>
+          <div class="contact-value" data-en="Usually within 24 hours" data-pt="Normalmente em 24 horas">Usually within 24 hours</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal-right">
+      <div class="form-row">
+        <label data-en="Your Name" data-pt="O seu Nome">Your Name</label>
+        <input type="text" placeholder="João Silva">
+      </div>
+      <div class="form-row">
+        <label>Email</label>
+        <input type="email" placeholder="joao@restaurant.pt">
+      </div>
+      <div class="form-row">
+        <label data-en="Project Type" data-pt="Tipo de Projeto">Project Type</label>
+        <select id="projectSelect">
+          <option value=""  data-en="Select a service..."      data-pt="Selecione um serviço...">Select a service...</option>
+          <option          data-en="New Website"               data-pt="Novo Website">New Website</option>
+          <option          data-en="Booking System"            data-pt="Sistema de Reservas">Booking System</option>
+          <option          data-en="Online Payments"           data-pt="Pagamentos Online">Online Payments</option>
+          <option          data-en="Admin Dashboard"           data-pt="Painel de Administração">Admin Dashboard</option>
+          <option          data-en="Full Digital Package"      data-pt="Pacote Digital Completo">Full Digital Package</option>
+          <option          data-en="Other"                     data-pt="Outro">Other</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label data-en="Tell me about your project" data-pt="Fale-me sobre o seu projeto">Tell me about your project</label>
+        <textarea id="projectTextarea" placeholder="Describe your business, what you need, and your timeline..."></textarea>
+      </div>
+      <button class="btn-primary" style="width:100%;text-align:center;display:block;"
+              data-en="Send Message →" data-pt="Enviar Mensagem →"
+              onclick="window.location='mailto:hello@dnabinn.eu'">Send Message →</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────────────────── -->
+<footer>
+  <div class="footer-copy">© 2025 <span class="footer-name">Nabin</span> — <span data-en="Web &amp; Digital Solutions, Lisbon" data-pt="Soluções Web &amp; Digitais, Lisboa">Web &amp; Digital Solutions, Lisbon</span></div>
+  <div class="footer-links">
+    <a href="#services"     data-en="Services"  data-pt="Serviços">Services</a>
+    <a href="#work"         data-en="Work"      data-pt="Trabalho">Work</a>
+    <a href="#about"        data-en="About"     data-pt="Sobre">About</a>
+    <a href="#contact"      data-en="Contact"   data-pt="Contacto">Contact</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
